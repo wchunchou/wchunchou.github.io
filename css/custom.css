@@ -1,0 +1,25 @@
+p,li,a{
+	font-size: 16px;
+	line-height: 28px;
+}
+html #header .header-top.header-top-tertiary{
+	background:#242e39;
+	border-top-color:#242e39;
+
+}
+.page-header{
+	border-bottom: 5px solid #384045;
+	padding:33px 0;
+}
+.sort-source-wrapper + .sort-destination-loader .full-width{
+	top:-46px;
+}
+.project-title{
+	text-align: center;
+}
+.project-sub-title{
+	text-align: center;
+}
+#footer{
+	margin-top:30px;
+}
