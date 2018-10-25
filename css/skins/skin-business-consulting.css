@@ -375,7 +375,7 @@ html .label-light {
 html .btn-primary {
 	color: #ffffff;
 	background-color: #c60055;
-	border-color: #c60055 #c60055 #3b9a57;
+	border-color: #c60055 #c60055 #c60055;
 }
 
 html .btn-primary:hover {
