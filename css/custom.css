@@ -399,7 +399,7 @@ h2 {
 		font-size: 1.6rem;
 	}
 	.looking-for .container {
-	padding: 60px 60px 20px 60px;
+	padding: 100px 60px 20px 60px;
 }
 }
 @media (max-width: 767px) {
@@ -683,7 +683,7 @@ h2 {
 	border: none;
 }
 .thumb-info.custom-thumb-info-style-1:hover .thumb-info-caption {
-	background: #4dbb6d !important;
+	background: #232323 !important;
 }
 .thumb-info.custom-thumb-info-style-1:hover .thumb-info-caption .custom-thumb-info-title span {
 	color: #FFF !important;
