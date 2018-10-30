@@ -4894,13 +4894,11 @@ ul.comments .comment-block,
 
 html #header.header-semi-transparent .header-body:before,
 html #header.header-semi-transparent-light .header-body:before {
-	background: #101019;
+	background: #fff;
+	font-color:#232323;
 }
 
 @media (min-width: 992px) {
-	#header .header-nav-main.header-nav-main-square nav > ul > li > a {
-		color: #FFF !important;
-	}
 
 	#header .header-nav-main.header-nav-main-square nav > ul > li.active > a {
 		color: #f50057 !important;

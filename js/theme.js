@@ -3099,6 +3099,7 @@ window.theme.fn = {
 					}
 
 					$html.addClass('sticky-header-active');
+					$(".header-logo a").html('<img alt="Weichun" width="40" height="40" src="img/logo-circle.png">');
 
 					self.options.headerBody.css('top', self.options.stickySetTop);
 
@@ -3115,6 +3116,7 @@ window.theme.fn = {
 				self.deactivateStickyHeader = function() {
 
 					$html.removeClass('sticky-header-active');
+					$(".header-logo a").html('<img alt="Weichun" width="40" height="40" src="img/logo-circle-white.png">');
 
 					self.options.headerBody.css('top', 0);
 

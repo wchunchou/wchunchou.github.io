@@ -251,6 +251,9 @@ h2 {
 /*
 * Header
 */
+.header-container{
+	border-bottom: 0.5px solid #232323;
+	}
 #header.custom-header-transparent-bottom-border .header-body .header-container > .header-row:after {
 	content: '';
 	display: block;
@@ -1046,6 +1049,7 @@ html #header .header-top.header-top-tertiary{
 }
 .page-header{
 	border-bottom: 5px solid #384045;
+	padding: 100px 0 60px 0;
 }
 .sort-source-wrapper + .sort-destination-loader .full-width{
 	top:-46px;
@@ -1079,6 +1083,12 @@ html #header .header-top.header-top-tertiary{
 	margin:0;
 }
 @media (max-width: 767px){
-.sort-source-wrapper {
-	background:none;
+	.sort-source-wrapper {
+		background:none;
+	}	
+	html.sticky-header-active #header.header-semi-transparent .header-body{
+		border-bottom: 0.5px solid #232323;
+	}
 }
+
+
