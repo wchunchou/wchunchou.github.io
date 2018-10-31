@@ -408,7 +408,6 @@ ul.nav-list li a {
 	-webkit-transition: background 0.1s;
 	-moz-transition: background 0.1s;
 	transition: background 0.1s;
-	border-bottom: 1px solid #EDEDDE;
 	padding: 8px 0 8px 18px;
 	display: block;
 	color: #666;
