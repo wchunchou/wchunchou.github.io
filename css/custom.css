@@ -1331,3 +1331,185 @@ html #header .header-top.header-top-tertiary {
     color: #fa4141;
     text-decoration: none;
 }
+
+.slide-shadow {
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.slide-shadow p {
+    color: #ddd;
+}
+
+ul.timeline {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    color: #000;
+    margin: 0 auto
+}
+
+ul.timeline i {
+    font-size: 3em;
+}
+
+section ul.timeline:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: -20px;
+    left: 50%;
+    width: 2px;
+    background-color: #000;
+    -webkit-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+section ul.timeline>li {
+    width: 50%;
+    position: relative;
+    padding: 3.7em 0
+}
+
+section ul.timeline>li:last-child {
+    margin-bottom: 0
+}
+
+section ul.timeline>li h4 {
+    letter-spacing: 3px
+}
+
+section ul.timeline>li .date {
+    letter-spacing: 3px;
+}
+
+section ul.timeline>li .icon,
+section ul.timeline>li:after,
+section ul.timeline>li:before {
+    position: absolute;
+    top: 4.6em;
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    content: '';
+    display: block;
+    background-color: #fff;
+}
+
+section ul.timeline>li .icon {
+    z-index: 1
+}
+
+section ul.timeline>li .icon,
+section ul.timeline>li .icon>img {
+    height: 40px;
+    width: auto
+}
+
+section ul.timeline>li .icon:before {
+    position: absolute;
+    content: '';
+    display: block;
+    height: 1px;
+    width: 55px;
+    top: 50%;
+    background-color: #000;
+}
+
+section ul.timeline>li .icon:after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 0 6px #fff;
+    top: 50%;
+    background-color: #000;
+}
+
+section ul.timeline>li:before {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    box-shadow: 0 0 0 2px #fff
+}
+
+section ul.timeline>li:after {
+    width: 22px;
+    height: 44px
+}
+
+section ul.timeline>li:nth-child(odd) {
+    left: 50%;
+    padding-left: 40px
+}
+
+section ul.timeline>li:nth-child(odd):before {
+    left: -20px
+}
+
+section ul.timeline>li:nth-child(odd):after {
+    left: -23px
+}
+
+section ul.timeline>li:nth-child(odd) .icon {
+    left: 0;
+    -webkit-transform: translateY(-50%) translateX(-100%) translateX(-61px);
+    -o-transform: translateY(-50%) translateX(-100%) translateX(-61px);
+    -ms-transform: translateY(-50%) translateX(-100%) translateX(-61px);
+    transform: translateY(-50%) translateX(-100%) translateX(-61px)
+}
+
+section ul.timeline>li:nth-child(odd) .icon:after,
+section ul.timeline>li:nth-child(odd) .icon:before {
+    left: 100%;
+    margin-left: 5px
+}
+
+section ul.timeline>li:nth-child(odd) .icon:after {
+    margin-left: 0;
+    -webkit-transform: translateY(-50%) translateX(-50%) translateX(61px);
+    -o-transform: translateY(-50%) translateX(-50%) translateX(61px);
+    -ms-transform: translateY(-50%) translateX(-50%) translateX(61px);
+    transform: translateY(-50%) translateX(-50%) translateX(61px)
+}
+
+section ul.timeline>li:nth-child(even) {
+    padding-right: 40px;
+    text-align: right
+}
+
+section ul.timeline>li:nth-child(even):before {
+    right: -20px
+}
+
+section ul.timeline>li:nth-child(even):after {
+    right: -23px
+}
+
+section ul.timeline>li:nth-child(even) .icon {
+    right: 0;
+    -webkit-transform: translateY(-50%) translateX(100%) translateX(61px);
+    -o-transform: translateY(-50%) translateX(100%) translateX(61px);
+    -ms-transform: translateY(-50%) translateX(100%) translateX(61px);
+    transform: translateY(-50%) translateX(100%) translateX(61px)
+}
+
+section ul.timeline>li:nth-child(even) .icon:after,
+section ul.timeline>li:nth-child(even) .icon:before {
+    right: 100%;
+    margin-right: 5px
+}
+
+section ul.timeline>li:nth-child(even) .icon:after {
+    margin-right: 0;
+    -webkit-transform: translateY(-50%) translateX(50%) translateX(-61px);
+    -o-transform: translateY(-50%) translateX(50%) translateX(-61px);
+    -ms-transform: translateY(-50%) translateX(50%) translateX(-61px);
+    transform: translateY(-50%) translateX(50%) translateX(-61px)
+}
