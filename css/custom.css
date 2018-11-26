@@ -1336,7 +1336,30 @@ html #header .header-top.header-top-tertiary {
     background-color: rgba(0, 0, 0, 0.5)
 }
 
+@media only screen and (max-width:767px) {
+    .slide-shadow {
+        background-color: #333;
+    }
+    .slide-shadow .container {
+        padding: 60px;
+    }
+}
+
 .slide-shadow p {
+    color: #ddd;
+}
+
+.about-intro h1,
+.about-intro h4 {
+    color: #fff;
+}
+
+.about-intro h1 {
+    font-size: 50px;
+    line-height: 70px;
+}
+
+.about-intro p {
     color: #ddd;
 }
 
@@ -1351,6 +1374,20 @@ ul.timeline {
 
 ul.timeline i {
     font-size: 3em;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.specialized {
+    min-height: 300px;
+}
+
+section ul.timeline>li h3,
+section ul.timeline>li h4,
+section ul.timeline>li .date {
+    margin-bottom: 15px;
 }
 
 section ul.timeline:before {
@@ -1512,4 +1549,25 @@ section ul.timeline>li:nth-child(even) .icon:after {
     -o-transform: translateY(-50%) translateX(50%) translateX(-61px);
     -ms-transform: translateY(-50%) translateX(50%) translateX(-61px);
     transform: translateY(-50%) translateX(50%) translateX(-61px)
+}
+
+@media only screen and (max-width:767px) {
+    section ul.timeline:before {
+        display: none
+    }
+    section ul.timeline li {
+        width: 100%
+    }
+    section ul.timeline li:nth-child(2n) {
+        padding-right: 0;
+        text-align: left
+    }
+    section ul.timeline li:nth-child(2n+1) {
+        left: 0;
+        padding-left: 0
+    }
+    section ul.timeline li .icon,
+    section ul.timeline li:before {
+        display: none
+    }
 }
