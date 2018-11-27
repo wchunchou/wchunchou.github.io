@@ -116,7 +116,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <ul class="breadcrumb">
-                                <li><a href="#">Home</a></li>
+                                <li><a href="index.html">Home</a></li>
                                 <li class="active">Portfolio</li>
                             </ul>
                         </div>
@@ -142,7 +142,7 @@
 
                     <ul class="portfolio-details">
                         <li>
-                            <h5 class="mt-sm mb-xs">Skills</h5>
+                            <h5 class="mt-sm mb-xs">My Role</h5>
 
                             <ul class="list list-inline list-icons">
                                 <li><i class="fa fa-check-circle"></i> UX Research & Design</li>
@@ -179,10 +179,11 @@
                     <p>After the client kick-off meeting, I found that the Taiwan Cetacean Society has two primary goals for this project. First, to increase the rescue rate of whales and dolphins. Second, educating the general public of how to help with
                         rescue when they find a stranding whale or dolphin. They already have a broad goal in mind, which they divided into three phases:</p>
                     <ul>
-                        <li>2016 Phase 1: rescue report App for the public</li>
-                        <li>2017 Phase 2: notification system for the professional rescuers</li>
-                        <li>2018 Phase 3: visualization of data</li>
+                        <li>2015 Phase 1: rescue report App for the public (Android Version)</li>
+                        <li>2016 Phase 2: iOS Version and New Feature</li>
+                        <li>2017 Phase 3: visualization of data</li>
                     </ul>
+                    <p>To explain my process of a project, I will focus on the first phrase, and emphasize the iteration and another two phrase at the end of this article.</p>
                     <h4 class="mt-lg">User Research</h4>
                     <p>With the help of TCS, I had 1x1 interview with their professional rescuer. He provided not only the insight of how rescuers work but also how the public report cases to them. Here's the key finding:</p>
                     <ul>
@@ -199,17 +200,21 @@
                             <li>They usually call coast guard instead of TCS.</li>
                         </ul>
                     </ul>
+
+                    <h4 class="mt-lg">User Story</h4>
+                    <p>With the key findings, I was able to transform it into user stories in a spreadsheet. User stories can not only help me create ideas but it can also serves as a great tool to create empathy with developers. Moreover, we can run the
+                        Scrum based on these user stories. A sample of user story is as following:
+                    </p>
+                    <blockquote class="with-borders">As a rescuer, I need the location and photos of the stranding animal so that I can bring proper tools to the right plcae.</blockquote>
                 </div>
             </div>
             <div class="row mt-lg">
                 <div class="col-md-12">
                     <hr></hr>
                     <h2 class="project-sub-title">Define</h2>
-                    <p>With the key findings, I was able to define the scope of the project. Usually, I transform it into user stories in a spreadsheet. User stories can help me calculate the budget and schedule with developers. Moreover, we can run the
-                        Scrum based on these user stories. Then, I create a flow of how people report a case.
+                    <p>I generate idea with the user stories. Then, I create a UI flow and then mapping these ideas into each screen.
                     </p>
-                    <h4>User Story Sample</h4>
-                    <blockquote class="with-borders">As a rescuer, I need the GPS location and photos of the stranding animal so that I can bring proper tools to the right location.</blockquote>
+
                     <h4>Ideas</h4>
                     <p>Based on these user story, I generate some main ideas:</p>
                     <ul>
@@ -220,27 +225,93 @@
                     </ul>
                     <p>Then, I create the UI flow as follow:</p>
                     <img src="img/projects/ce-04.png">
+                    <h4>Project Speculation & Task Assignment</h4>
+                    <p>Once I know how may pages and features we need. I arranged a tech meeting with the developer head, we decided who would devleop the program and how much time we need. In addition, we were able to calculate the cost based on the estimated
+                        work hours.</p>
+                    <p>Unfortunately, we had a shortage of App developer at that time. So, we outsource this part to a freelancer. From this experience, I learned a lot of how to manage a remote developer.</p>
+                    <img src="img/projects/ce-05.png" width="100%">
                 </div>
             </div>
             <div class="row mt-lg">
                 <div class="col-md-12">
                     <hr></hr>
                     <h2 class="project-sub-title">Design</h2>
-                    <p>Start at 2016, this project is a three years program. One phrase a year. At the start of each year, the Taiwan Cetacean Society and I have a kick-off meeting, reflecting on the current status and setting up a new year's goal. Here's
-                        the process we went through in one phrase:
+                    <p>I created the prototype with Axure RP. In this prototype, I have two challenges I want to try: First, I want to display different status of a report. That is, new report, failed report, and replied report. Second, I want to make this
+                        app looks more delightful and warm, in the opposite of suffering animal pictures that will show up in this app.
                     </p>
-                    <img src="img/projects/ce-01.png" width="100%">
+                    <img src="img/projects/ce-06.png" width="100%">
+                    <p style="text-align: center"><a href="https://wireframe.larvata.tw/whale/" class="btn btn-primary btn-lg mt-lg p-lg" target="_blank">Live Demo</a></p>
+                </div>
+            </div>
+            <div class="row mt-lg">
+                <div class="col-md-12">
+                    <hr></hr>
+                    <h2 class="project-sub-title">Validation</h2>
+                    <h4>Heuristic Evaluation</h4>
+                    <p>When the prototype is ready, I ran a <strong>heuristic evaluation</strong> with several of my co-worker. One of the significant change accroding to the heuristic evaluation is to move the navigation tab from the bottom to the top of
+                        the screen in the Android version. They said that based on the UX research form some popular app like LINE, Android users are prone to press the wrong tab because the bottom tabs are close to the original function tabs of Android
+                        phone.
+                    </p>
+                    <p style="text-align: center"><img src="img/projects/ce-07.png"><img src="img/projects/ce-08.png"><br>the location of tabs is different between iOS version and Android version.</p>
+                    </p>
+                    <h4>Usability Test & Client Approvement</h4>
+                    <p>After our in-house testing, I bring the prototype to the client and ran a usbility test with them. In one hand, I would like to make some ajustiment with their involement, on the other hand, the the action also prevent them from changing
+                        spec after we go into the developing stage.
+                    </p>
+                </div>
+            </div>
+            <div class="row mt-lg">
+                <div class="col-md-12">
+                    <hr></hr>
+                    <h2 class="project-sub-title">Development</h2>
+                    <h4>UI Design</h4>
+                    <p>I gave the UI designer my prototype, and she worked on the graphics display of this app. One of my particular requirement is to create a cute loading animation. There would be a few seconds before finishing the submitting with six
+                        photos uploading at one time,
+                    </p>
+                    <p style="text-align: center"><img src="img/projects/ce-09.png" width="100%"><br>UI design by the team</p>
+                    <p style="text-align: center"><img src="img/projects/ce-10.gif"><br>Waiting animation by the team</p>
+                    <h4>Coding</h4>
+                    <p>When we move into the coding process, I will create several "issues" on our issue tracking system, setting up estimated work hours and assigning them to the developers. The most difficult part of this stages would be to track their
+                        progress and help them solving difficult tasks by finding a senior developer for them. Also, I will have a daily stand-up meeting with them and explain the detail of features if they are confusing with the design.</p>
+                </div>
+            </div>
+            <div class="row mt-lg">
+                <div class="col-md-12">
+                    <hr></hr>
+                    <h2 class="project-sub-title">Phase 2 and Phase 3</h2>
+                    <h4>Phase 2 - New Feature</h4>
+                    <p>In phase 2, we developed the iOS version of the app, and add a new feature - Wiki. This new feature allows the user to understand different species of whales and dolphins. Also, it explained in detail of how to rescue stranded animals
+                        by taking the standard process.
+                    </p>
+                    <p style="text-align: center"><img src="img/projects/ce-12.png" width="200px">
+                        <h4>Phase 3 - Visualization of Data</h4>
+                        <p>After collecting data for two years, we can utilize the data by visualizing them to the public. In the past, the TSC had to create a picture of a map that lists the location cases every month. It takes time and effort. By creating
+                            a website that shows the report data from the app database, we can show the most up-t-date cases with filter and interactive features.</p>
+                        <p style="text-align: center"><img src="img/projects/ce-13.png" width="100%"></p>
                 </div>
             </div>
             <div class="row mt-lg">
                 <div class="col-md-12">
                     <hr></hr>
                     <h2 class="project-sub-title">In the News</h2>
+                    <p>Cetacean Rescue App is reported by these Taiwan Media:</p>
                     <ul class="in-the-news">
-                        <li><a href="http://www.tanews.org.tw/info/13682" target="_blank">2018-01-05 an APP help increasing successful rate of resueing - Taiwan Animal News</a></li>
-                        <li><a href="https://www.cna.com.tw/news/ahel/201801050287.aspx" target="_blank">2018-01-05 Download Cetacean Rescue App, you can be the rescuer - The Central News Agency</a></li>
-                        <li><a href="https://www.forest.gov.tw/0000014/0061788" target="_blank">2018-01-05 Cetacean Rescue App increased successful rate of resueing - Taiwan Forestry Bureau</a></li>
+                        <li class="mt-lg"><a href="http://www.tanews.org.tw/info/13682" target="_blank">2018-01-05 an APP help increasing successful rate of resueing - Taiwan Animal News</a></li>
+                        <li class="mt-lg"><a href="https://www.cna.com.tw/news/ahel/201801050287.aspx" target="_blank">2018-01-05 Download Cetacean Rescue App, you can be the rescuer - The Central News Agency</a></li>
+                        <li class="mt-lg"><a href="https://www.forest.gov.tw/0000014/0061788" target="_blank">2018-01-05 Cetacean Rescue App increased successful rate of resueing - Taiwan Forestry Bureau</a></li>
                     </ul>
+                </div>
+            </div>
+            <div class="row mt-lg">
+                <div class="col-md-12">
+                    <hr></hr>
+                    <h2 class="project-sub-title">Conclusion</h2>
+                    <p>This project is my first mobile app project that goes to public users. It had a more flexible schedule but a limited budget, so I was able to run this project with multiple phrases. I learned how to manage developer outside of the
+                        company and how to design a mobile UX with a long-term prospect.
+
+                    </p>
+                    <p>One thing I think to improve is that I wish I would run task testing with more end-users. But back to 2015, I know nothing about task testing, which leaves many rooms for usability improvement</p>
+
                 </div>
             </div>
         </div>
