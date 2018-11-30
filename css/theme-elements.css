@@ -415,7 +415,8 @@ p.drop-caps:first-letter {
     padding: 4px;
     margin-right: 5px;
     margin-top: 5px;
-    font-family: Georgia;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
 }
 
 p.drop-caps.drop-caps-style-2:first-letter {
@@ -430,7 +431,7 @@ p.drop-caps.drop-caps-style-2:first-letter {
 /* Default Font Style */
 
 .default-font {
-    font-family: "Open Sans", Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -2803,7 +2804,7 @@ html.boxed section.video>div:first-child video {
 
 .mfp-close,
 .mfp-close-btn-in .mfp-close {
-    font-family: "Open Sans", Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 22px;
     color: #838383;
@@ -4753,7 +4754,7 @@ hr.pattern.pattern-2:after,
     border: 0;
     background: #666;
     color: #FFF;
-    font-family: "Open Sans", Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 600;
     box-shadow: none;
     width: 100%;
